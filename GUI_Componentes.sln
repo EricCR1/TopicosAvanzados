@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Control_Image", "GUI_Compon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Componentes_GUI", "Componentes_GUI\Componentes_GUI.csproj", "{16AA1A49-3741-462C-A855-477A7338601A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Contactos", "Contactos\Contactos.csproj", "{9B592D7B-7987-4D57-BA02-99AA007603AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{16AA1A49-3741-462C-A855-477A7338601A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{16AA1A49-3741-462C-A855-477A7338601A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{16AA1A49-3741-462C-A855-477A7338601A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B592D7B-7987-4D57-BA02-99AA007603AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B592D7B-7987-4D57-BA02-99AA007603AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B592D7B-7987-4D57-BA02-99AA007603AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B592D7B-7987-4D57-BA02-99AA007603AD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Windows.Forms;
 
-namespace Componentes_GUI
+namespace Contactos
 {
     internal static class Program
     {
