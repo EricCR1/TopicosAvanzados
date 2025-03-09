@@ -14,5 +14,10 @@ namespace Componentes_GUI
         {
 
         }
+
+        private void controlTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
