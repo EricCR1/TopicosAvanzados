@@ -64,6 +64,7 @@
             this.button7.TabIndex = 31;
             this.button7.Text = "Buscar";
             this.button7.UseVisualStyleBackColor = true;
+            this.button7.Click += new System.EventHandler(this.button7_Click);
             // 
             // button6
             // 
@@ -73,6 +74,7 @@
             this.button6.TabIndex = 30;
             this.button6.Text = "Borrar";
             this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
             // button5
             // 
@@ -82,6 +84,7 @@
             this.button5.TabIndex = 29;
             this.button5.Text = "Actualizar";
             this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
             // 
             // button4
             // 
@@ -91,6 +94,7 @@
             this.button4.TabIndex = 28;
             this.button4.Text = "Insertar";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dgvAlumnos
             // 
@@ -113,6 +117,7 @@
             this.button3.TabIndex = 26;
             this.button3.Text = "Refrescar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button2
             // 
@@ -122,6 +127,7 @@
             this.button2.TabIndex = 25;
             this.button2.Text = "Crear Tabla";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label3
             // 
