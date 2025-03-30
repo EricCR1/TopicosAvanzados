@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NumerosPrimosSecuencial", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisControles", "MisControles\MisControles.csproj", "{640B21DF-5582-48A0-A743-89D22A1DD9BC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AccesoDatos", "AccesoDatos\AccesoDatos.csproj", "{F590B9CB-ECFD-4322-BD29-04F281CE584E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{640B21DF-5582-48A0-A743-89D22A1DD9BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{640B21DF-5582-48A0-A743-89D22A1DD9BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{640B21DF-5582-48A0-A743-89D22A1DD9BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F590B9CB-ECFD-4322-BD29-04F281CE584E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F590B9CB-ECFD-4322-BD29-04F281CE584E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F590B9CB-ECFD-4322-BD29-04F281CE584E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F590B9CB-ECFD-4322-BD29-04F281CE584E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
