@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.userControl11 = new GUI_Componentes.UserControl1();
-            this.label1 = new System.Windows.Forms.Label();
             this.miTextBox1 = new MisControles.MiTextBox();
             this.botonPersonalizado1 = new MisControles.BotonPersonalizado();
             this.SuspendLayout();
@@ -42,16 +41,6 @@
             this.userControl11.TabIndex = 0;
             this.userControl11.Load += new System.EventHandler(this.userControl11_Load);
             // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Arial Rounded MT Bold", 24F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(365, 398);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(196, 37);
-            this.label1.TabIndex = 1;
-            this.label1.Text = "SI SIRVIO :)";
-            // 
             // miTextBox1
             // 
             this.miTextBox1.Location = new System.Drawing.Point(73, 375);
@@ -59,6 +48,7 @@
             this.miTextBox1.Size = new System.Drawing.Size(98, 21);
             this.miTextBox1.TabIndex = 3;
             this.miTextBox1.TipoValidacion = null;
+            this.miTextBox1.Load += new System.EventHandler(this.miTextBox1_Load);
             // 
             // botonPersonalizado1
             // 
@@ -76,19 +66,16 @@
             this.ClientSize = new System.Drawing.Size(593, 444);
             this.Controls.Add(this.botonPersonalizado1);
             this.Controls.Add(this.miTextBox1);
-            this.Controls.Add(this.label1);
             this.Controls.Add(this.userControl11);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
 
         private GUI_Componentes.UserControl1 userControl11;
-        private System.Windows.Forms.Label label1;
         private MisControles.MiTextBox miTextBox1;
         private MisControles.BotonPersonalizado botonPersonalizado1;
     }

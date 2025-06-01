@@ -19,5 +19,10 @@ namespace Componentes_GUI
         {
 
         }
+
+        private void miTextBox1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
