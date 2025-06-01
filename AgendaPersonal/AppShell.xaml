@@ -6,7 +6,7 @@
     Shell.FlyoutBehavior="Flyout">
 
     <FlyoutItem Title="Inicio" Icon="icon_home.png">
-        <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" />
+        <ShellContent Title="Inicio" ContentTemplate="{DataTemplate local:MainPage}" Route="home" />
     </FlyoutItem>
 
     <FlyoutItem Title="Contactos" Icon="icon_contacts.png">
@@ -16,4 +16,7 @@
     <FlyoutItem Title="Configuración" Icon="icon_settings.png">
         <ShellContent Title="Configuración" ContentTemplate="{DataTemplate local:ConfiguracionPage}" />
     </FlyoutItem>
+
+
+
 </Shell>

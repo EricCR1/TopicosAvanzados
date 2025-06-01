@@ -1,0 +1,15 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AgendaPersonal.RegistroPage"
+             Title="Registro">
+    <VerticalStackLayout Padding="20">
+        <Label Text="Registro de Usuario" FontSize="24" FontAttributes="Bold" />
+        <Label Text="Nombre de Usuario:" />
+        <Entry Placeholder="Ingrese su nombre de usuario" />
+        <Label Text="Correo electrónico:" />
+        <Entry Placeholder="Ingrese su email" />
+        <Label Text="Contraseña:" />
+        <Entry Placeholder="Ingrese una contraseña" IsPassword="True" />
+        <Button Text="Registrar (No funcional aún)" />
+    </VerticalStackLayout>
+</ContentPage>

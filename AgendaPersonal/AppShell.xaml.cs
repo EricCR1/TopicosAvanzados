@@ -4,11 +4,22 @@
     {
         public AppShell()
         {
+
+
+
             InitializeComponent();
             Routing.RegisterRoute(nameof(CrearContactoPage), typeof(CrearContactoPage));
             Routing.RegisterRoute(nameof(DetalleContactoPage), typeof(DetalleContactoPage));
             Routing.RegisterRoute(nameof(ContactosPage), typeof(ContactosPage));
             Routing.RegisterRoute(nameof(ConfiguracionPage), typeof(ConfiguracionPage));
+            Routing.RegisterRoute("home", typeof(MainPage));
+            Routing.RegisterRoute("login", typeof(LoginPage));
+            Routing.RegisterRoute(nameof(RegistroPage), typeof(RegistroPage));
+            Routing.RegisterRoute(nameof(RecuperarPasswordPage), typeof(RecuperarPasswordPage));
+
+
+
+
 
 
         }

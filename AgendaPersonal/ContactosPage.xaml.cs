@@ -1,9 +1,14 @@
+using AgendaPersonal.Modelos;
+using AgendaPersonal.Datos;
+//using AgendaPersonal.Utils;
 using System.Collections.ObjectModel;
 
 namespace AgendaPersonal;
 
 public partial class ContactosPage : ContentPage
 {
+
+    private ContactoDatabase db = new ContactoDatabase();
     public ObservableCollection<Contacto> Contactos { get; set; }
 
     public ContactosPage()
@@ -28,12 +33,33 @@ public partial class ContactosPage : ContentPage
         }
         ((CollectionView)sender).SelectedItem = null;
     }
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        ContactosCollectionView.ItemsSource = await db.ObtenerContactosAsync();
+    }
+
+    private async void OnEliminarContacto(object sender, EventArgs e)
+    {
+        if (((SwipeItem)sender).BindingContext is Contacto contacto)
+        {
+            bool confirm = await DisplayAlert("Confirmar", $"¿Eliminar a {contacto.Nombre}?", "Sí", "No");
+            if (confirm)
+            {
+
+                await db.EliminarContactoAsync(contacto);
+                ContactosCollectionView.ItemsSource = await db.ObtenerContactosAsync();
+            }
+        }
+    }
 }
 
-public class Contacto
+
+
+/*public class Contacto
 {
     public string Nombre { get; set; }
     public string Telefono { get; set; }
     public string Correo { get; set; }
     public string Direccion { get; set; } // Para DetalleContactoPage
-}
+}*/
