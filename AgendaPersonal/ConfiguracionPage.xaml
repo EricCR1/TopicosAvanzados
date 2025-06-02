@@ -30,6 +30,7 @@
 
         <!-- Botón -->
         <Button Text="Cambiar Tema"
+                Clicked="OnThemeToggleClicked"
                 BackgroundColor="#4F6D7A"
                 TextColor="White"
                 CornerRadius="10"
